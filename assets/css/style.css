@@ -37,6 +37,15 @@ a:hover {
   position: relative;
 }
 
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #FFFF00;
+  padding: 10px;
+  }
+  
 .color-a {
   text-decoration: none;
   color: #0078ff;
